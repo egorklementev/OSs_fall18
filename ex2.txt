@@ -1,0 +1,423 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install build-essential
+    4  gcc -v
+    5  make -v
+    6  wget -q -0 - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+    7  wget -q -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+    8  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+    9  echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+   10  sudo apt-get update
+   11  sudo apt-get install google-chrome-stable
+   12  exit
+   13  file /sbin/init
+   14  file /lib/systemd/systemd
+   15  exit
+   16  sudo -s chmod -R 777 /opt/Qt5.11.1
+   17  killall pulseaudio; rm -r ~/.config/pulse/* ; rm -r ~/.pulse*
+   18  killall pulseaudio
+   19  rm -r ~/.config/pulse/*
+   20  rm -r ~/.pulse*
+   21  sudo apt-get install pavucontrol
+   22  sudo apt-get install synaptic
+   23  sudo apt-get update
+   24  sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+   25  sudo apt-get install "^libxcb.*" lib11-xcb-dev libglu1-mesa-dev libxrender-dev
+   26  sudo apt-get install "^libxcb.*" libx11-xcb-dev
+   27  cd/home/egorklementev/Downloads
+   28  cd/home/
+   29  cd/home
+   30  home
+   31  cd
+   32  cd/home
+   33  cd /home
+   34  cd /egorklementev
+   35  cd downloads
+   36  ls -a
+   37  cd /home/egorklementev
+   38  cd /home/egorklementev/downloads
+   39  ls
+   40  cd /Downl
+   41  ls -a
+   42  ls
+   43  cd Downloads
+   44  sudo -s chmod u+x qt-opensource-linux-x64-5.11.1.run
+   45  sudo -s ./qt-opensource-linux-x64-5.11.1.run -style cleanlooks
+   46  cd /
+   47  sudo -s chmod -R 777 /home/egorklementev/.config/QtProject
+   48  sudo -s nano /etc/profile
+   49  . /etc/profile
+   50  /opt/Qt5.11.1/5.11.1/gcc_64/bin/qmake
+   51  which qmake
+   52  qmake -version
+   53  exit
+   54  kek
+   55  exit
+   56  sudo apt-get install vim
+   57  vim
+   58  cd /home/egorklementev/desktop
+   59  cd /home/egorklementev/Desktop/
+   60  vim o new_file.txt
+   61  exit
+   62  cd
+   63  ls
+   64  cd /Desktop
+   65  cd ls -a
+   66  ls -a
+   67  exit
+   68  cd
+   69  ls
+   70  cd /home/
+   71  ls
+   72  cd /home/egorklementev/
+   73  ls
+   74  cd ./Desktop/
+   75  vim README.rst
+   76  rm README.rst
+   77  exit
+   78  ./boostrap
+   79  ./bootsrap
+   80  bootsrap
+   81  . /bootsrap
+   82  ./bootstrap
+   83  ./bootstrap make 
+   84  cd /./
+   85  exit
+   86  ls
+   87  ./bootstrap
+   88  make
+   89  make install
+   90  sudo make install
+   91  exit
+   92  ls
+   93  cd ./Desktop/
+   94  vim main.cpp
+   95  vim .vimrc
+   96  vim ~/.vimrc
+   97  ls
+   98  ls -a
+   99  rm .vimrc
+  100  ls -a
+  101  cd ~
+  102  ./
+  103  ls
+  104  ls -a
+  105  o .vimrc
+  106  open .vimrx
+  107  open .vimrc
+  108  nano .vimrc
+  109  vim .vimrc
+  110  exit
+  111  ls
+  112  ls -a
+  113  mv
+  114  mv .vimrc ~/
+  115  ls -a
+  116  vim ~/.vimrc
+  117  cd
+  118  ls
+  119  ls -a
+  120  cd ~/
+  121  ls
+  122  cd /
+  123  ls
+  124  ls -a
+  125  cd ~
+  126  vim .vimrc
+  127  exit
+  128  cd ./.vim
+  129  ls -a
+  130  mkdir plugged
+  131  ls -a
+  132  cd ./autoload/
+  133  ls -a
+  134  vim plug.vim 
+  135  cd ../
+  136  cd ./plugged/
+  137  ls -a
+  138  o plug.vim
+  139  ls
+  140  cd ./Desktop/
+  141  > plug.vim
+  142  vim plug.vim
+  143  vim --version | grep clipboard
+  144  sudo apt-get update
+  145  sudo apt-get install vim-gnome
+  146  vim --version | grep clipboard
+  147  vim plug.vim
+  148  cd ~
+  149  ls -a
+  150  mkdir .vim
+  151  ls -a
+  152  cd ./.vim
+  153  mkdir autoload
+  154  cd ../
+  155  cd ./Desktop/
+  156  mv plug.vim ../.vim/autoload
+  157  cd ../.vim/autoload
+  158  ls
+  159  cd ~/Desktop/
+  160  vim main.cpp
+  161  cd ~
+  162  vim .vimrc
+  163  yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+  164  sudo apt-get install install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+  165  sudo apt-get install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+  166  sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev
+  167  sudo apt-get install git
+  168  vim .vimrc
+  169  dos2unix .vimrc
+  170  sudo apt-get install dos2unix
+  171  sudo apt-get update
+  172  dos2unix .vimrc
+  173  ./
+  174  cd ./
+  175  cd ../
+  176  vim .vimrc
+  177  cd
+  178  ls
+  179  cd ./Desktop/
+  180  vim main.cpp 
+  181  cd ~
+  182  qmake -project
+  183  qmake 
+  184  make
+  185  cd ./Desktop/
+  186  qmake -project
+  187  qmake
+  188  make
+  189  qmake -project
+  190  qmake
+  191  make
+  192  qmake -project
+  193  ls
+  194  ls -a
+  195  rm egorklementev.pro 
+  196  cd ./Desktop/
+  197  cd qt_project/
+  198  qmake -project
+  199  qmake
+  200  make
+  201  exit
+  202  qmake -project
+  203  qmake
+  204  make
+  205  sudo apt-get install "^libxcb.*" libx11-xcb-dev libglu1-mesa-dev libxrender-dev
+  206  make
+  207  sudo aptitude install htop
+  208  sudo apt-get install htop
+  209  ./qt_project 
+  210  qmake
+  211  make
+  212  ./test_app 
+  213  qmake
+  214  make
+  215  ./test_app 
+  216  make
+  217  qmake
+  218  make
+  219  ./test_app 
+  220  > new_file.txt
+  221  > main.cpp
+  222  vim main.cpp 
+  223  qmake -project
+  224  qmake
+  225  make
+  226  ./test_app 
+  227  make
+  228  ./test_app 
+  229  > MainWindow.cpp
+  230  > MainWindow.h
+  231  vim main.cpp
+  232  exit
+  233  exiit
+  234  exit
+  235  ld
+  236  la
+  237  l
+  238  exit
+  239  l
+  240  la
+  241  cd
+  242  cd /usr/egorklementev/desktop/
+  243  cd /home/egorklementev/desktop/
+  244  cd /home/egorklementev/Desktop/
+  245  mkdir egor
+  246  cd ./egor/
+  247  cd ../
+  248  cd ./egor/
+  249  > file.java
+  250  vim file.java 
+  251  > main.cpp
+  252  rm file.java 
+  253  l
+  254  vim main.cpp 
+  255  make
+  256  make main.cpp
+  257  gcc
+  258  gcc main.cpp
+  259  vim main.cpp 
+  260  gcc main.cpp
+  261  vim main.cpp 
+  262  gcc main.cpp
+  263  make
+  264  cmake
+  265  gcc main.cpp -o a_plus_b
+  266  l
+  267  ./a_plus_b 
+  268  wq
+  269  exit
+  270  cd ./Desktop/
+  271  cd ./egor/
+  272  l
+  273  vim main.cpp 
+  274  gcc main.cpp -o program
+  275  l
+  276  ./program 
+  277  exit
+  278  ava
+  279  java
+  280  exit
+  281  vim main.cpp
+  282  rm main.cpp 
+  283  ld
+  284  l
+  285  LA
+  286  la
+  287  program
+  288  ./program 
+  289  exiy
+  290  exit
+  291  cd
+  292  l
+  293  > opengl
+  294  l
+  295  rm ./opengl 
+  296  mkdir opengl
+  297  l
+  298  cd ./opengl/
+  299  > configure.ac
+  300  vim ./configure.ac 
+  301  l
+  302  > Makefile.am
+  303  l
+  304  vim ./Makefile.am 
+  305  exot
+  306  exit
+  307  l
+  308  cd ./bin
+  309  l
+  310  cmake
+  311  ./cmake
+  312  cmake ~/opengl/glfw-3.2.1/
+  313  git clone --recursive https://github.com/Polytonic/Glitter
+  314  l
+  315  vim ./bootstrap 
+  316  cd ./bin
+  317  l
+  318  ./ctest 
+  319  ccmake
+  320  sudo apt install cmake-curses-gui
+  321  apt-get update
+  322  sudo apt-get update
+  323  ccmake
+  324  sudo apt install cmake-curses-gui
+  325  ccmake
+  326  ccmake ~/opengl/glfw-3.2.1/
+  327  randr
+  328  sudo apt-get install xorg-dev libglu1-mesa-dev
+  329  ccmake ~/opengl/glfw-3.2.1/
+  330  cd Glitter
+  331  cd Build
+  332  cmake ..
+  333  cmake ./
+  334  > main.cpp
+  335  rm main.cpp 
+  336  ;
+  337  l
+  338  cd ./Desktop/
+  339  > main.cpp
+  340  vim main.cpp 
+  341  cd ./Desktop/
+  342  vim main.cpp 
+  343  gcc -o main.cpp 
+  344  gcc main.cpp -o
+  345  gcc main -o main.cpp 
+  346  gcc -o main.cpp 
+  347  gcc main.cpp -o main
+  348  exit
+  349  sudo apt-get update
+  350  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  351  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  352  sudo apt-get install curl
+  353  sudo apt install curl
+  354  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  355  exit
+  356  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  357  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  358  sudo apt-key fingerprint 0EBFCD88
+  359  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  360     $(lsb_release -cs) \
+  361     stable"
+  362  sudo apt-get update
+  363  apt-get install docker-ce
+  364  sudo apt-get install docker-ce
+  365  sudo docker run hello-world
+  366  docker run -it ubuntu bash
+  367  sudo docker run -it ubuntu bash
+  368  docker run -help
+  369  docker run --help
+  370  exit
+  371  ls
+  372  la
+  373  cd
+  374  mkdir tmp
+  375  ls
+  376  l
+  377  cd ./tmp
+  378  whoami
+  379  hostname
+  380  man whoami
+  381  cd ../
+  382  cd ./Desktop/
+  383  mkdir labs
+  384  less
+  385  cd ~
+  386  less
+  387  head
+  388  cd ./Desktop/
+  389  > file.cpp
+  390  vim file.cpp
+  391  less file.cpp 
+  392  head file.cpp 
+  393  tail file.cpp 
+  394  man -h | head
+  395  man head
+  396  vim file.cpp 
+  397  head -n 3 file.cpp 
+  398  head -n 3 < file.cpp 
+  399  ls > list.txt
+  400  vim list.txt 
+  401  rm list.txt 
+  402  pwd
+  403  lobs
+  404  jobs
+  405  vim file.cpp &
+  406  jobs
+  407  fg %1
+  408  jobs
+  409  mkdir ~/week1
+  410  cd ~/week1/
+  411  ls sort -r | grep gcc > ex1.txt
+  412  ls > ex1.txt  sort -r | grep gcc
+  413  ls sort -r | grep gcc
+  414* ls > ~/week1/ex1.txt | sort -r | grep gcc
+  415  cd /usr/bin
+  416  ls > ~/week1/ex1.txt | sort -r | grep gcc
+  417  ls | sort -r | grep gcc
+  418  ls | sort -r | grep gcc > ~/week1/ex1.txt
+  419  cd ~/week1/
+  420  vim ex1.txt 
+  421  man history 
+  422  vim
+  423  history > ex2.txt
