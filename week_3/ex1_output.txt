@@ -1,0 +1,12 @@
+Address of c: 1475049916
+Value of c: 22
+
+Address of pointer pc: 1475049916
+Content of pointer pc: 22
+
+Address of pointer pc: 1475049916
+Content of pointer pc: 11
+
+Address of c: 1475049916
+Value of c: 2
+
