@@ -1,0 +1,10 @@
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt
+./ex1 >> output.txt

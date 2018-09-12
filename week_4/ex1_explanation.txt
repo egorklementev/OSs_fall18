@@ -1,0 +1,4 @@
+When the fork successfully clones a new process function 'fork()' 
+returns zero, otherwise non-zero value. So, we can easily check 
+if returned value is zero or not. In this way we can distinguish 
+parent and child processses.

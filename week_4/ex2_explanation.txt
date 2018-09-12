@@ -1,0 +1,23 @@
+After program is being executing the processes tree shows
+us that there are two processes 'ex2':
+
+-gnome-terminal--+-bash---bash---bash-+-ex2---ex2
+                 |                    `-pstree
+
+After 5-10 seconds 'pstree' command shows us that there are 
+already 4 'ex2' processes:
+
+-gnome-terminal--+-bash---bash---bash-+-ex2-+-ex2---ex2
+                 |                    |     `-ex2
+                 |                    `-pstree
+
+After 10-15 seconds we can see that there are 8 'ex2' processes: 
+
+gnome-terminal--+-bash---bash---bash-+-ex2-+-ex2-+-ex2---ex2
+                 |                    |     |     `-ex2
+                 |                    |     |-ex2---ex2
+                 |                    |     `-ex2
+                 |                    `-pstree
+
+After next 'fork()' function execution the number of processes
+doubles (1 -> 2 -> 4 -> 8).
