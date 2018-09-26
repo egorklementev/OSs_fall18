@@ -49,18 +49,19 @@ int main()
 
 			while (TRUE) 
 			{	
-				sleep(1);
 				printf("I am the second child (PID - %d)!\n", getpid());	
+				sleep(1);
 			}
 		}
 		else
 		{
 			close(file_d[0]);
 			write(file_d[1], &c2_pid, sizeof(c2_pid));
+			close(file_d[1]);
 
 			printf("Main process is waiting...\n");
 			printf("Waiting of the process (PID - %d) is over\n", 		
-				waitpid(c2_pid, &status, 0));	
+				waitpid(c2_pid, &status, WUNTRACED));	
 			printf("Shutting down...\n");
 			exit(status);
 		}
