@@ -1,0 +1,42 @@
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        865M        2,0G        150M        864M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        865M        9,5G
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        865M        2,0G        150M        864M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        865M        9,5G
+
+-----------------
+/// Running ./ex2
+-----------------
+
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        888M        2,0G        152M        866M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        888M        9,5G
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        908M        2,0G        152M        866M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        908M        9,4G
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        917M        2,0G        154M        869M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        917M        9,4G
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        938M        2,0G        152M        866M        2,4G
+Swap:          7,5G          0B        7,5G
+Total:          11G        938M        9,4G
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        948M        2,0G        151M        866M        2,4G
+Swap:          7,5G          0B        7,5G
+Total:          11G        948M        9,4G
+              total        used        free      shared  buff/cache   available
+
+-----------------------
+/// The program is done
+-----------------------
+
+Mem:           3,7G        858M        2,0G        152M        866M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        858M        9,5G

@@ -1,0 +1,4 @@
+Both frame and virtual pages are 8 KB.
+To refer entries in the page we need 13 bits (because 8 KB = 2^13 B).
+So, for the pages itself we have only (16 - 13) = 3 bits.
+Thus we should have 2^3 = 8 pages in the page table.

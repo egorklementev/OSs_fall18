@@ -1,0 +1,10 @@
+Result of 'free -t -h' command:
+              total        used        free      shared  buff/cache   available
+Mem:           3,7G        850M        2,1G        151M        788M        2,5G
+Swap:          7,5G          0B        7,5G
+Total:          11G        850M        9,6G
+
+Result of 'vmstat' command:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0      0 2230128  72424 731700    0    0   393    27  125  237  3  1 89  7  0

@@ -1,0 +1,2 @@
+Physical address refers to the memory itself (RAM).
+Virtual address refers to the virtual memory which is mapped to the main memory.
