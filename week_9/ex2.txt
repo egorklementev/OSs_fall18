@@ -1,0 +1,13 @@
+Suppose we have 10 page frames.
+Also we have page references from 1 to 20.
+
+To increase hit/miss ratio it is obvious number of hits should be
+increased or number of misses should be decreased.
+
+Sequence 1 1 1 1 ... (n times) will give us the best hit/miss ratio
+and it will be equal (n - 1) / 1 = n - 1
+
+Sequence 1...20 (repeated n times) will give us worst hit/miss ration and it will
+be equal 0 / (n * 20) = 0 
+If we had 20 pages instead of 10 we would have ratio be equal 
+((n * 20) - 20) / 20 = ((n - 1) * 20) / 20 = n - 1 as in the first case.
