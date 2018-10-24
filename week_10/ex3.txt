@@ -1,0 +1,12 @@
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ > _ex3.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ ls -l _ex3.txt 
+-rw-r--r-- 1 erked erked 0 окт 24 14:50 _ex3.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ chmod ugo-x _ex3.txt 
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ ls -l _ex3.txt 
+-rw-r--r-- 1 erked erked 0 окт 24 14:50 _ex3.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ chmod uo+rwx _ex3.txt 
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ ls -l _ex3.txt 
+-rwxr--rwx 1 erked erked 0 окт 24 14:50 _ex3.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ chmod g+wx _ex3.txt 
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ ls -l _ex3.txt 
+-rwxrwxrwx 1 erked erked 0 окт 24 14:50 _ex3.txt

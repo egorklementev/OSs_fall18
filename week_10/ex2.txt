@@ -1,0 +1,7 @@
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ link ./week01/file.txt _ex2.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ ls -i ./week01/file.txt 
+6947544 ./week01/file.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ find ~ -inum 6947544 
+/home/erked/reps/OSs_fall18/week_10/_ex2.txt
+/home/erked/reps/OSs_fall18/week_10/week01/file.txt
+erked@erked-Inspiron-15-3567:~/reps/OSs_fall18/week_10$ find ~ -inum 6947544 -exec rm {} \;
