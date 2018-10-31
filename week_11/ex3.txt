@@ -1,0 +1,12 @@
+The ouput of the first program is two "Hello" lines ending with
+the "\n" character. Because of the line buffering of the I/O
+"Hello" string prints twice. When the fork() function copies the
+process it also copies a buffer. So, both buffers will write data
+separately when the "\n" character insertion will happen.
+
+In the second case we have only one "Hello" line ending with
+the "\n" character and two empty lines containing "\n"
+characters. Because first printed line already has newline
+character in it, after fork() function both buffers will be
+empty and so after first meeting of "\n" they will just 
+write it on the stream. 
